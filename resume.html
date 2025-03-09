@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV-leopold-favre</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+  <style>
+    /* @media print {
+      body {
+        width: 210mm;
+        height: 297mm;
+      }
+
+    } */
+
+    html {
+      height: 270mm;
+      width: 190mm;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+    :root,
+    [data-bs-theme="light"] {
+      --bs-primary-rgb: 0, 150, 136;
+      --bs-border-width: 0;
+      font-size: 8pt;
+    }
+
+    .bg-dark1 {
+      background-color: color-mix(in srgb, rgba(var(--bs-primary-rgb), var(--bs-bg-opacity, 1)) 100%, rgb(0, 0, 0) 20%) !important;
+    }
+
+    .bg-dark2 {
+      background-color: color-mix(in srgb, rgba(var(--bs-primary-rgb), var(--bs-bg-opacity, 1)) 100%, rgb(0, 0, 0) 40%) !important;
+    }
+
+    .bg-dark3 {
+      background-color: color-mix(in srgb, rgba(var(--bs-primary-rgb), var(--bs-bg-opacity, 1)) 100%, rgb(0, 0, 0) 60%) !important;
+    }
+
+    .divider {
+      border-width: 1px;
+      border-color: orange;
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="my-2">
+      <div class="row">
+        <div class="col  col-md-auto">
+          <div class="shadow-lg" style="border-radius: 0.5rem;">
+            <img src="me.png" style="width: 100%; height: auto;  border-radius: 0.5rem; height: 200px;" />
+          </div>
+        </div>
+        <div class="col  col-md-fill container">
+          <div class="row">
+            <div class="col ">
+              <h1 class="display-3">Léopold Favre</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col ">
+              <p>Ingénieur logiciel basé à Orléans, spécialisé dans le cloud, la data et développement web.
+                Je m'intéresse particulièrement aux domaines métier qui concernent l'environnement, l'économie sociale et solidaire et l'administration publique.
+              </p>
+              <p>
+                Actuellement à l'écoute de nouvelles opportunités professionnelles.
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col  col-md-6">
+              <p>
+                github: <a href="https://github.com/lfavre13">github.com/lfavre13</a>
+              </p>
+            </div>
+            <div class="col  col-md-6">
+              <p>
+                linkedin: <a href="https://www.linkedin.com/in/leopold-favre">linkedin.com/in/leopold.favre</a>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col  col-md-6">
+              <p>
+                email: <a href="mailto:leopold.favre@proton.com">leopold.favre@proton.com</a>
+              </p>
+            </div>
+            <div class="col  col-md-6">
+              <p>
+                tel: <a href="tel:+33642362698">0642362698</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="row">
+        <div class="col ">
+          <hr class="divider" />
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col ">
+          <h3 class="display-5">Expériences</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col  col-md-6">
+          <h4>INSEE</h4>
+          <h5>"Analyste Développeur" - 2024 à aujourd'hui</h5>
+          <p>Développement et maintien d'une application déployée dans les mairies de France pour référencer les logements des communes, les échantilloner et préparer les enquêtes des recensement. Développement d'une application cartographique de classement des communes de France.</p>
+          <ul>
+            <li>Front-end : typescript, react, vite, material UI, openlayers.</li>
+            <li>Back-end : Java, JEE, hibernate, spring boot.</li>
+            <li>Tests: junit, cypress, vitest, selenium.</li>
+            <li>Bases de donneés : postgresql, postgis, elasticsearch.</li>
+            <li>Infrastructure : VMWare, puppet, rundeck.</li>
+            <li>Gestion de versions et de projet : gitlab.</li>
+          </ul>
+        </div>
+        <div class="col  col-md-6">
+          <h4>Meteoswift / Trailstone</h4>
+          <h5>"Ingénieur devOps python" - 2022-2024</h5>
+          <p>Développement et maintien du système de prévisions de production des parcs éoliens et solaires. Intégration des modèles de machine learning dans l'infrastructure de production. Migration de l'infrastructure suite au rachat de l'entreprise.</p>
+          <ul>
+            <li>Back-end / front-end : python, django, celery</li>
+            <li>Microservices : python, pandas.</li>
+            <li>Tests: pytest, mutmut.</li>
+            <li>Infrastructure : AWS (eks, lambda, ecs), Kubernetes.</li>
+            <li>Infrastructure as code : terraform, helm, argocd.</li>
+            <li>Bases de données : rds, mysql</li>
+            <li>Observabilité : loki, prometheus, grafana, cloudwatch.</li>
+            <li>Gestion de versions et de projet: bitbucket, jira.</li>
+          </ul>
+
+        </div>
+        <div class="row">
+          <div class="col  col-md-4">
+            <h4 class="h4">Meteo*Swift</h4>
+            <h5>Stage - 2022 (6 mois)</h5>
+            <p>
+              Développement en python d'un ETL pour des données de prévisions météorologiques. Analyse et utilisation des API des différents fournisseurs. Intégration au système de prévisions de production d'énergies renouvelables
+            </p>
+          </div>
+          <div class="col  col-md-4">
+            <h4>Laboratoire CoML (ENS Paris)</h4>
+            <h5>Stage - 2020 (4 mois)</h5>
+            <p>
+              Développement en java d'une bibliothèque a destination de chercheurs en traitement du langage naturel. Lecture de documentation scientifique, analyse des besoins des chercheurs, optimisation d'algorithmes
+            </p>
+          </div>
+          <div class="col  col-md-4">
+            <h4>ENSIMAG : Projet génie logiciel</h4>
+            <h5>Projet - 2021 (2 mois)</h5>
+            <p>Développement d'un compilateur pour un langage orienté objet en équipe de cinq, selon un cahier des charges et une suite de tests end-to-end donnée. 18/20 obtenu
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col ">
+          <hr class="divider" />
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col ">
+          <h2 class="display-5">Éducation</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col  col-md-4">
+          <h4>Grenoble INP - ENSIMAG</h4>
+          <h5>2019-2022</h5>
+          <p>École d'ingénieurs spécialisée en informatique. Cursus "Ingénierie des systèmes d'information"</p>
+        </div>
+        <div class="col  col-md-4">
+          <h4>Lycée Fénelon (Paris)</h4>
+          <h5>2017-2019</h5>
+          <p>
+            Classe préparatoire aux grandes écoles d'ingénieurs MPSI puis MP*.
+          </p>
+        </div>
+        <div class="col  col-md-4">
+          <h4 class="h4">Lycée Rodin (Paris)</h4>
+          <h5>2014-2017</h5>
+          <p>Baccalauréat S option SVT et option Anglais Européen obtenu avec la mention "très bien"</p>
+        </div>
+      </div>
+
+
+
+      <div class="row">
+        <div class="col ">
+          <hr class="divider" />
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col ">
+          <h3 class="display-5">Autres</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col  col-md-12">
+          <h4>Permis B</h4>
+        </div>
+        <div class="col  col-md-6">
+          <h4>TOEIC Niveau B2</h4>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</body>
+
+</html>
